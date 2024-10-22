@@ -1,0 +1,89 @@
+body{margin:0px;}
+.container{
+    width:1200px
+}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.brading{width:500px;}
+.nav{width:700px;}
+.branding .title {
+    color:#4073de;
+    font-size: 35px;
+    
+}
+.nav li{
+     margin:0px
+}
+.nav ul li{
+    float:left;
+    list-style:none;
+    padding: 15px 10px
+}
+.nav ul li:hover{
+    background-color: #4b5de0;
+}
+.nav ul li a{
+    font-size:20px;
+    font-weight:bold;
+    text-decoration: none;
+    color:black; 
+}
+#slide img{
+    width:100%;
+    
+}
+
+.box{
+    width:25%;
+}
+.box-content{
+    padding:0px 15px;
+}
+.box-content div{
+    padding:15px;
+}
+.box-content div .title{
+    font-size:35px;
+    color:white;
+}
+.box-content div p{
+    color:white;
+    font-size:20px;
+}
+.bg-01{
+    background-color: rgb(255,174,1);
+    background: linear-gradient(0deg, rgba(255,174,1,1) 0%,rgba(255,135,21,1)100%);
+}
+div#feature-new{
+    margin-top: -124px;
+    z-index:999;
+    position: sticky;
+}#news  {margin: 30px;}
+.news  .box{
+    width:50%;
+}
+.news .box-content img{
+    width: 100%;
+    height: auto; 
+}
+.box-content.box-content-text {
+    background-color: #434343;
+    padding: 50px; 
+    min-height: 242px; 
+    
+}
+.news .box-content .title{
+    font-size:30px
+}
+.news .box-content button{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1)0%, rgba(253,29,29,1)50%, rgba(252,176,69,1)100%);
+    padding: 10px 15px;
+    border-width: 0px;
+}
+.news .box-content button a{
+    color: white;
+    text-decoration: none;
+    font-size: 18;
+}
